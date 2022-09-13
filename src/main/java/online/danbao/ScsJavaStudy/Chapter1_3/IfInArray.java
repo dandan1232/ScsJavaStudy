@@ -1,4 +1,4 @@
-package online.danbao;
+package online.danbao.ScsJavaStudy.Chapter1_3;
 
 import java.util.Scanner;
 
