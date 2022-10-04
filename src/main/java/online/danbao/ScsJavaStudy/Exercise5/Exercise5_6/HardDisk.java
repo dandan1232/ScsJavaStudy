@@ -8,4 +8,11 @@ package online.danbao.ScsJavaStudy.Exercise5.Exercise5_6;
  * 要求setHardDisk（HardDisk h）方法将参数h的值赋值给HD
  */
 public class HardDisk {
+    int amount;
+    void setAmount(int m) {
+        amount = m;
+    }
+    int getAmount() {
+        return amount;
+    }
 }

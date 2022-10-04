@@ -7,4 +7,11 @@ package online.danbao.ScsJavaStudy.Exercise5.Exercise5_6;
  * CPU类要求getSpeed（）返回speed的值，要求setSpeed（int m）方法将参数m的值赋值给speed
  */
 public class CPU {
+    int speed;
+    void setSpeed(int m) {
+        speed =m;
+    }
+    int getSpeed() {
+        return speed;
+    }
 }
