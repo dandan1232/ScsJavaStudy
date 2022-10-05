@@ -10,11 +10,11 @@ public class E {
     public static void main(String[] args)
     {
         //实例化对象Monkey
-        Monkey m = new Monkey("tom");
+        Monkey m = new Monkey("Exercise7");
         m.speak();
 
         //实例化对象people
-        People p = new People("Xiaoming");
+        People p = new People("Exercise7_3");
         p.speak();
         p.think();
 
