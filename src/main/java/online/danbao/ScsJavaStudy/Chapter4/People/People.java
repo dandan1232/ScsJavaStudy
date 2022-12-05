@@ -5,8 +5,7 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * @author: 蛋宝
  * @date: 2022/9/13 16:27
- * @description:
- * 创建一个叫做People的类：
+ * @description: 创建一个叫做People的类：
  * 属性：姓名、年龄、性别、身高
  * 行为：说话、计算加法、改名
  * 编写能为所有属性赋值的构造方法；
@@ -58,6 +57,5 @@ public class People {
     public int getAccount(int a, int b) {
         return a + b;
     }
-
 
 }

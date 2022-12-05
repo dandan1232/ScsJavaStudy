@@ -21,5 +21,4 @@ public class AmericanPeople extends People{
     public void amercianBoxing(){
         System.out.println("我会拳击：直拳、上勾拳");
     }
-
 }
