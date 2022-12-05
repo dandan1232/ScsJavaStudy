@@ -1,9 +1,9 @@
-package online.danbao.ScsJavaStudy.Chapter1_3;
+package online.danbao.Exam.Exam12;
 
 /**
  * @author: 蛋宝
  * @date: 2022/9/8 17:36
- * @description:编写应用程序求1！+2！+….+10!;
+ * @description:编写应用程序求1！+2！+….+100!;
  */
 public class JieCheng {
 //        public static void main(String[] args) {
