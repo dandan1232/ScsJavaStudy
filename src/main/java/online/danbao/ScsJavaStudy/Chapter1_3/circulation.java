@@ -12,13 +12,13 @@ public class circulation {
         int j;
         float a = 1;
         double sum = 0;
-        for (i = 1; i <= 20; i++) {
+        for (i = 1; i <= 30; i++) {
             for (j = 1; j <= i; j++) {
                 a = a * j;
             }
             sum = sum + 1 / a;
             a = 1;
         }
-        System.out.println("for循环:"+"1+1/2!+1/3!+…的前20项和:" + sum);
+        System.out.println("for循环:"+"1+1/2!+1/3!+…的前30项和:" + sum);
     }
 }

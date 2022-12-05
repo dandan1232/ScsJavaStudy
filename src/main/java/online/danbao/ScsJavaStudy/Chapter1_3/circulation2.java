@@ -15,7 +15,7 @@ public class circulation2 {
             j = j * i;
             i++;
             sum = sum + 1 / j;
-        } while (i <= 20);
-        System.out.println("do-while循环：" + "1+1/2!+1/3!+…的前20项和:" + sum);
+        } while (i <= 30);
+        System.out.println("do-while循环：" + "1+1/2!+1/3!+…的前30项和:" + sum);
     }
 }
