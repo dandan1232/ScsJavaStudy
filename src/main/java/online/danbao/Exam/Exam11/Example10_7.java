@@ -10,8 +10,8 @@ import java.util.StringTokenizer;
  */
 public class Example10_7 {
     public static void main(String args[]) {
-        File fRead = new File("english.txt");
-        File fWrite = new File("englishCount.txt");
+        File fRead = new File("D:\\Study\\ScsJavaStudy\\src\\main\\java\\online\\danbao\\Exam\\Exam11\\english.txt");
+        File fWrite = new File("D:\\Study\\ScsJavaStudy\\src\\main\\java\\online\\danbao\\Exam\\Exam11\\englishCount.txt");
         try{  Writer out = new FileWriter(fWrite);
             BufferedWriter bufferWrite = new BufferedWriter(out);
             Reader in = new FileReader(fRead);
