@@ -7,6 +7,8 @@ package online.danbao;
 
 public class Test2{
     public static void main(String args[]){
-        TestD testB=new TestD();
+//        TestD testB=new TestD();
+        String s="story";
+        System.out.println(s+100);
     }
 }

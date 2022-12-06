@@ -18,7 +18,7 @@ public class E {
 
         ClassB b= new ClassB();
         InterfaceA ib= b;
-        System.out.println(b.method(5));
+        System.out.println(b.method(35));
     }
 
 }
