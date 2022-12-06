@@ -1,7 +1,7 @@
 package online.danbao.Exam.Exam4;
 
 
-public class Dog extends Animal {
+public class Dog implements Animal {
     @Override
     public void cry() {
         System.out.println("汪汪...汪汪");
