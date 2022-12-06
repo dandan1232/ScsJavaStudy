@@ -1,10 +1,16 @@
-package online.danbao.Exam.Exam8;
+package online.danbao.Exam.Exam9;
+
+import lombok.SneakyThrows;
 
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.*;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.Statement;
 
 /**
  * @author: 蛋宝
@@ -22,8 +28,8 @@ public class Login extends JFrame implements ActionListener {
 
     public  Login() {
 
-        jb1 = new JButton("登录");
-        jb2 = new JButton("注册");
+        jb1 = new JButton("保存");
+        jb2 = new JButton("取消");
         //设置按钮监听
         jb1.addActionListener(this);
         jb2.addActionListener(this);
@@ -70,24 +76,32 @@ public class Login extends JFrame implements ActionListener {
 
     }
 
+
     @Override
     public void actionPerformed(ActionEvent e) {
+        Connection con;
+        Statement sql;
+        ResultSet rs;
         // TODO Auto-generated method stub
-//        if (e.getActionCommand()=="登录")
-//        {
+        if (e.getActionCommand()=="保存")
+        {
+            try {
+                Class.forName("com.mysql.cj.jdbc.Driver");
+            } catch (ClassNotFoundException e1) {
+                // TODO Auto-generated catch block
+                e1.printStackTrace();
+            }
 //            try {
-//                login();
-//            } catch (HeadlessException | IOException e1) {
-//                // TODO Auto-generated catch block
-//                e1.printStackTrace();
+//                String url="jdbc:mysql://localhost:3306/library_system?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai";
+//                con= DriverManager.getConnection(url,"root","ldd123789dd");
 //            }
-//        }
-//        else if(e.getActionCommand()=="注册")
-//        {
-//            //  clear();
-////            new Register();
-////            dispose();  //使窗口消失
-//        }
+        }
+        else if(e.getActionCommand()=="取消")
+        {
+            //  clear();
+//            new Register();
+//            dispose();  //使窗口消失
+        }
     }
     //清空账号和密码框
 //    private void clear() {
