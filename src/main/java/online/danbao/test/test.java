@@ -17,5 +17,9 @@ public class test {
             }
         }
         System.out.println(a);
+
+//        long a[] = new long[6];
+//        System.out.println(a[5]);
+
     }
 }

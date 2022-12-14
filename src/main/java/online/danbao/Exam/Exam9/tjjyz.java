@@ -58,6 +58,7 @@ public class tjjyz extends JFrame {
 
 
         button1.addActionListener(new ActionListener() {
+
             @Override
             public void actionPerformed(ActionEvent e)  {
                 Driver driver = null;                       //1.驱动注册
