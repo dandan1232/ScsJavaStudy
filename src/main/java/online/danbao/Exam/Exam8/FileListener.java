@@ -44,7 +44,7 @@ public class FileListener implements ActionListener {
 
         }
         catch (Exception e1 ){
-                System.out.println("meifany");
+                System.out.println(e1);
         }
 
     }
