@@ -10,11 +10,11 @@ import java.sql.PreparedStatement;
  * @author bobo
  * @cerate 2022-12-24-17:22
  */
-public class testListen implements ActionListener {
-    Test view;
+public class RegisterListen implements ActionListener {
+    Register view;
 
 
-    public void  setView(Test view){  //传递窗口引用
+    public void  setView(Register view){  //传递窗口引用
         this.view = view;
     }
 
@@ -44,7 +44,7 @@ public class testListen implements ActionListener {
     }
 
     public static void main(String[] args) {
-        Test test = new Test("用户注册",800,300,400,300);
+        Register test = new Register("用户注册",800,300,400,300);
     }
 
 }

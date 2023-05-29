@@ -43,8 +43,9 @@ public class JDBCUtils {
     //静态方法二：关闭资源(适用：增删改)
     public static void closeResource(Connection con, Statement ps){
         try{
-            if(con != null)
+            if(con != null) {
                 con.close();
+            }
         }catch (Exception e){
             e.printStackTrace();
         }

@@ -1,20 +1,18 @@
 package online.danbao.Exam.Exam9.Exchange2;
 
-import online.danbao.Exam.Exam9.Exchange.WindowsMenu2;
-
 import javax.swing.*;
 
 /**
  * @author bobo
  * @cerate 2022-12-24-17:01
  */
-public class Test extends JFrame {
+public class Register extends JFrame {
     JLabel user,password;
     JTextField text1,text2;
     JButton save,cancel;
-    testListen listen;
+    RegisterListen listen;
 
-    public Test(String s,int a,int b,int c,int d){
+    public Register(String s, int a, int b, int c, int d){
         init();
         setVisible(true);
         setTitle(s);
@@ -44,7 +42,7 @@ public class Test extends JFrame {
         cancel.setBounds(200,100,60,20);
         add(cancel);
 
-        listen = new testListen();//保存按钮注册监听
+        listen = new RegisterListen();//保存按钮注册监听
         listen.setView(this);
         save.addActionListener(listen);
 
